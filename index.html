@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Developer Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css" />
+</head>
+<body class="bg-gray-50 font-sans light-mode">
+
+    <!-- Toggle Button -->
+    <div class="text-right p-4">
+        <button id="theme-toggle" class="px-4 py-2 bg-blue-500 text-white rounded">Toggle Theme</button>
+    </div>
+
+    <!-- Header -->
+    <header class="bg-header text-center py-6 shadow-lg">
+        <h1 class="text-4xl font-extrabold tracking-wider">John Doe</h1>
+        <p class="mt-2 text-lg">Full Stack Web Developer</p>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto p-6 mt-6">
+        <!-- About Me Section -->
+        <section class="bg-gray-50 dark:bg-gray-800 shadow-lg rounded-lg p-8 mb-8">
+            <h2 class="text-3xl font-bold section-title mb-4">About Me</h2>
+            <p class="section-text mb-6">
+                I am a passionate web developer with experience in creating dynamic and responsive websites and applications. I have a strong background in both front-end and back-end development, with a keen eye for detail and a drive to deliver exceptional user experiences.
+            </p>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="bg-gray-50 dark:bg-gray-800 shadow-lg rounded-lg p-8 mb-8">
+            <h2 class="text-3xl font-bold section-title mb-4">Skills</h2>
+            <ul class="list-disc list-inside section-text">
+                <li>HTML, CSS, JavaScript</li>
+                <li>React, Vue, Angular</li>
+                <li>Node.js, Express.js</li>
+                <li>MongoDB, MySQL</li>
+                <li>Git, GitHub</li>
+                <li>Responsive Design</li>
+            </ul>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="bg-gray-50 dark:bg-gray-800 shadow-lg rounded-lg p-8 mb-8">
+            <h2 class="text-3xl font-bold section-title mb-4">Projects</h2>
+            <div class="space-y-6">
+                <div>
+                    <h3 class="text-2xl font-semibold highlight">Project One</h3>
+                    <p class="section-text">
+                        A brief description of the project, the technologies used, and the challenges overcome. This project showcases my ability to create dynamic and responsive web applications.
+                    </p>
+                </div>
+                <div>
+                    <h3 class="text-2xl font-semibold highlight">Project Two</h3>
+                    <p class="section-text">
+                        Another project description highlighting key features, tools, and libraries used. Demonstrates my problem-solving skills and adaptability to different frameworks.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="bg-gray-50 dark:bg-gray-800 shadow-lg rounded-lg p-8 mb-8">
+            <h2 class="text-3xl font-bold section-title mb-4">Contact</h2>
+            <p class="section-text mb-6">
+                If you would like to get in touch, please feel free to reach out through any of the methods below:
+            </p>
+            <ul class="list-disc list-inside section-text">
+                <li>Email: <span class="highlight">john.doe@example.com</span></li>
+                <li>LinkedIn: <a href="#" class="link hover:underline">linkedin.com/in/johndoe</a></li>
+                <li>GitHub: <a href="#" class="link hover:underline">github.com/johndoe</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-footer text-center py-6 mt-6 shadow-lg">
+        <p class="text-sm">&copy; 2024 John Doe. All rights reserved.</p>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
